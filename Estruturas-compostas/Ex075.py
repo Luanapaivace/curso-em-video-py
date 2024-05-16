@@ -1,0 +1,8 @@
+lista = ("Pão", "5.90", "Requeijão", "7,50", "Café", "5", "Queijo", "20")
+print("-=-" * 34)
+print("Para fazermos um café da tarde foi feita a seguinte lista com os produtos e seus respectivos valores: ")
+print("-=-" * 34)
+print(f"{lista[0]}:       ....................... R$ {lista[1]}")
+print(f"{lista[2]}: ....................... R$ {lista[3]}")
+print(f"{lista[4]}:      ....................... R$ {lista[5]}")
+print(f"{lista[6]}:    ....................... R$ {lista[7]}")
