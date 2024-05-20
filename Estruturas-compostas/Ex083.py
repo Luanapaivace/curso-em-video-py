@@ -13,7 +13,7 @@ while True:
             mi = n2[1]
     n1.append(n2[:])
     n2.clear()
-    r = str(input("Quer continuar?[S/N] "))
+    r = str(input("Quer continuar? [S/N] "))
     if r in "Nn":
         break
 print(f"As informações guardadas foram: {n1}")
