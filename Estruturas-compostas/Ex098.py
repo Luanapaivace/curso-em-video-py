@@ -5,3 +5,4 @@ def maior(*num):
 
 maior(1, 2, 5, 6)
 maior(9, 1, 4)
+maior(0, 0)
